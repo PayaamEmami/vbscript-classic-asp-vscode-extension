@@ -3,6 +3,7 @@
   "displayName": "Classic ASP Function Search",
   "description": "Classic ASP Function Search is a streamlined VSCode extension specifically designed for Classic ASP applications. It enables developers to quickly locate and jump to function definitions within VBScript in HTML and ASP files. By integrating seamlessly with your development environment, this tool provides an efficient method for accessing function implementations. Ideal for developers working with Classic ASP, ASP Function Search offers a practical solution to improve code navigation and reduce the time spent searching through codebases.",
   "version": "0.0.1",
+  "main": "./src/extension.js",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -21,5 +22,10 @@
       "scopeName": "",
       "path": "./syntaxes/html, plaintext.tmLanguage.json"
     }]
-  }
+  },
+  "activationEvents": [
+    "onLanguage:html",
+    "onLanguage:asp",
+    "onLanguage:plaintext"
+  ]
 }
