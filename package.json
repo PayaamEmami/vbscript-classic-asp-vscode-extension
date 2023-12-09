@@ -16,11 +16,6 @@
       "aliases": ["VBScript", "html, plaintext"],
       "extensions": [".html",".asp",".vbs"],
       "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "html, plaintext",
-      "scopeName": "",
-      "path": "./syntaxes/html, plaintext.tmLanguage.json"
     }]
   },
   "activationEvents": [
