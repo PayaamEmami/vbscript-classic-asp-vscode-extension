@@ -11,12 +11,23 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "html, plaintext",
-      "aliases": ["VBScript", "html, plaintext"],
-      "extensions": [".html",".asp",".vbs"],
-      "configuration": "./language-configuration.json"
-    }]
+    "languages": [
+      {
+        "id": "html",
+        "aliases": ["HTML"],
+        "extensions": [".html"]
+      },
+      {
+        "id": "asp",
+        "aliases": ["ASP"],
+        "extensions": [".asp"]
+      },
+      {
+        "id": "plaintext",
+        "aliases": ["Plain Text"],
+        "extensions": [".txt", ".vbs"]
+      }
+    ]
   },
   "activationEvents": [
     "onLanguage:html",

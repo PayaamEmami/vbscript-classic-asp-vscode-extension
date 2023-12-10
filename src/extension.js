@@ -48,7 +48,7 @@ class VBScriptDefinitionProvider {
 
     async searchInWorkspace(pattern, currentDocument) {
         try {
-            const files = await vscode.workspace.findFiles('**/*.{html,asp}', '**/node_modules/**');
+            const files = await vscode.workspace.findFiles('**/*.{html,asp,vbs}', '**/node_modules/**');
             for (const file of files) {
                 if (file.fsPath === currentDocument.uri.fsPath) continue;
 
