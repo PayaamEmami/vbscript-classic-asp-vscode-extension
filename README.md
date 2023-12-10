@@ -1,65 +1,33 @@
-# asp-function-search README
+# Classic ASP Function Search README
 
-This is the README for your extension "asp-function-search". After writing up a brief description, we recommend including the following sections.
+This is the README for the "Classic ASP Function Search" extension. This extension is specifically designed for Classic ASP applications, enabling developers to quickly locate and jump to function definitions within VBScript in HTML, ASP, and VBS files. It integrates seamlessly with your development environment, providing an efficient method for accessing function implementations and improving code navigation.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+"Classic ASP Function Search" offers the following features:
+- Easily jump to function and subroutine definitions in VBScript within HTML and ASP files.
+- Supports searching across multiple files, including `.html`, `.asp`, and `.vbs`.
+- Caches search results for quicker access and reduced search times.
+- Clear cache automatically when files are changed.
 
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+![Demo](demo.gif)
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+There are no additional requirements or dependencies needed to use this extension beyond Visual Studio Code version 1.85.0 or higher.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+This extension does not add any specific VS Code settings through the `contributes.configuration` extension point at this time.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+No known issues at this time. Please report any issues encountered on the repository's issue tracker.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+### 0.0.1
 
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+- Initial release of "Classic ASP Function Search".
+- Support for `.html`, `.asp`, and `.vbs` files.
+- Ability to find function and subroutine definitions within files.

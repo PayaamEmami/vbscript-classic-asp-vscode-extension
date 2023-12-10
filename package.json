@@ -33,5 +33,9 @@
     "onLanguage:html",
     "onLanguage:asp",
     "onLanguage:plaintext"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PayaamEmami/classic-asp-function-search.git"
+  }
 }
