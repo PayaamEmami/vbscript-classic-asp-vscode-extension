@@ -1,6 +1,6 @@
 # Classic ASP README
 
-This is the README for the "Classic ASP" extension. This extension is specifically designed for Classic ASP applications, enabling developers to quickly locate and jump to function definitions within VBScript in HTML, ASP, and VBS files. It integrates seamlessly with your development environment, providing an efficient method for accessing function implementations, improving code navigation, and adding syntax highlighting for VBScript.
+This extension is specifically designed for Classic ASP applications, enabling developers to quickly locate and jump to function definitions within VBScript in HTML, ASP, and VBS files. It integrates seamlessly with your development environment, providing an efficient method for accessing function implementations, improving code navigation, and adding syntax highlighting for VBScript.
 
 ## Features
 
@@ -11,7 +11,7 @@ This is the README for the "Classic ASP" extension. This extension is specifical
 - Caches search results for quicker access and reduced search times.
 - Clear cache automatically when files are changed.
 
-![Demo](demo.gif)
+![Demo](/demo.gif)
 
 ## Requirements
 
