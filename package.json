@@ -1,7 +1,7 @@
 {
-  "name": "classic-asp-function-search",
-  "displayName": "Classic ASP Function Search",
-  "description": "Classic ASP Function Search is a streamlined VSCode extension specifically designed for Classic ASP applications. It enables developers to quickly locate and jump to function definitions within VBScript in HTML and ASP files. By integrating seamlessly with your development environment, this tool provides an efficient method for accessing function implementations. Ideal for developers working with Classic ASP, ASP Function Search offers a practical solution to improve code navigation and reduce the time spent searching through codebases.",
+  "name": "classic-asp",
+  "displayName": "Classic ASP",
+  "description": "Classic ASP extension is a streamlined VSCode extension specifically designed for Classic ASP applications. It enables developers to quickly locate and jump to function definitions within VBScript in HTML and ASP files, and adds syntax highlighting for VBScript. This integration improves code navigation and reduces the time spent searching through codebases. Ideal for Classic ASP developers, this tool offers a practical solution to enhance productivity.",
   "version": "0.0.1",
   "main": "./src/extension.js",
   "engines": {
@@ -26,16 +26,30 @@
         "id": "plaintext",
         "aliases": ["Plain Text"],
         "extensions": [".txt", ".vbs"]
+      },
+      {
+        "id": "vbs",
+        "aliases": ["VBScript", "vbs"],
+        "extensions": [".vbs"],
+        "configuration": "./syntaxes/language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "vbs",
+        "scopeName": "source.vbs",
+        "path": "./syntaxes/vbs.tmLanguage.json"
       }
     ]
   },
   "activationEvents": [
     "onLanguage:html",
     "onLanguage:asp",
-    "onLanguage:plaintext"
+    "onLanguage:plaintext",
+    "onLanguage:vbs"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/PayaamEmami/classic-asp-function-search.git"
+    "url": "https://github.com/PayaamEmami/classic-asp-vscode-extension.git"
   }
 }

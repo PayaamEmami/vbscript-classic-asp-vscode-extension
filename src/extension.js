@@ -11,6 +11,8 @@ class VBScriptDefinitionProvider {
             const searchPattern = new RegExp(`(Function|Sub)\\s+${word}\\b`, 'i');
             const cacheKey = document.uri.toString() + ':' + word;
 
+            console.log("provideDefinition called for", document.uri);
+
             if (this.definitionCache.has(cacheKey)) {
                 const cachedDefinitions = this.definitionCache.get(cacheKey);
                 if (cachedDefinitions.length === 1) {
@@ -90,7 +92,7 @@ class VBScriptDefinitionProvider {
 
 function activate(context) {
     let provider = new VBScriptDefinitionProvider();
-    let disposable = vscode.languages.registerDefinitionProvider(['html', 'plaintext'], provider);
+    let disposable = vscode.languages.registerDefinitionProvider(['html', 'plaintext', 'vbs'], provider);
     let watcher = vscode.workspace.createFileSystemWatcher('**/*.{html,asp,vbs}');
 
     watcher.onDidChange(() => provider.clearCache());
