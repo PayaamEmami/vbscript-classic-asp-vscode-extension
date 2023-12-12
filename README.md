@@ -11,8 +11,6 @@ This extension is specifically designed for Classic ASP applications, enabling d
 - Caches search results for quicker access and reduced search times.
 - Clear cache automatically when files are changed.
 
-![Demo](./demo.gif)
-
 ## Requirements
 
 There are no additional requirements or dependencies needed to use this extension beyond Visual Studio Code version 1.85.0 or higher.
