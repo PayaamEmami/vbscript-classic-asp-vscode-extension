@@ -11,7 +11,7 @@ This extension is specifically designed for Classic ASP applications, enabling d
 - Caches search results for quicker access and reduced search times.
 - Clear cache automatically when files are changed.
 
-![Demo](/demo.gif)
+![Demo](./demo.gif)
 
 ## Requirements
 
