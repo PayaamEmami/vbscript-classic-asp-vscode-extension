@@ -1,10 +1,10 @@
-# Classic ASP README
+# VBScript Classic ASP README
 
-This extension is specifically designed for Classic ASP applications, enabling developers to quickly locate and jump to function definitions within VBScript in HTML, ASP, and VBS files. It integrates seamlessly with your development environment, providing an efficient method for accessing function implementations, improving code navigation, and adding syntax highlighting for VBScript.
+This extension is specifically designed for VBScript in Classic ASP applications, enabling developers to quickly locate and jump to function definitions within VBScript in HTML, ASP, and VBS files. It integrates seamlessly with your development environment, providing an efficient method for accessing function implementations, improving code navigation, and adding syntax highlighting for VBScript.
 
 ## Features
 
-"Classic ASP" offers the following features:
+"VBScript Classic ASP" offers the following features:
 - Jump to function and subroutine definitions in VBScript within HTML, ASP, and VBS files.
 - Syntax highlighting for VBScript to enhance code readability.
 - Supports searching across multiple files, including `.html`, `.asp`, and `.vbs`.
@@ -27,7 +27,7 @@ No known issues at this time. Please report any issues encountered on the reposi
 
 ### 0.0.1
 
-- Initial release of "Classic ASP".
+- Initial release of "VBScript Classic ASP".
 - Support for `.html`, `.asp`, and `.vbs` files.
 - Ability to find function and subroutine definitions within files.
 - Added syntax highlighting for VBScript.
