@@ -2,6 +2,8 @@
 
 This extension is specifically designed for VBScript in Classic ASP applications, enabling developers to quickly locate and jump to function definitions within VBScript in HTML, ASP, and VBS files. It integrates seamlessly with your development environment, providing an efficient method for accessing function implementations, improving code navigation, and adding syntax highlighting for VBScript.
 
+![Demo](https://raw.githubusercontent.com/PayaamEmami/vbscript-classic-asp-vscode-extension/main/demo.gif)
+
 ## Features
 
 "VBScript Classic ASP" offers the following features:
